@@ -19,8 +19,8 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('comp.jpg')",
-        "hero-pattern2": "url('computer2.jpg')",
+        "hero-pattern": "url('computer.jpg')",
+        
       },
     },
   },
