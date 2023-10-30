@@ -39,26 +39,26 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+       
+        <h2 className={styles.sectionHeadText}>Introduction.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+         I'm a highly skilled software developer, 
+         renowned for my strong foundation in TypeScript and JavaScript. 
+         My extensive expertise extends to popular frameworks like React, Next.js, and Astro. 
+         Additionally, I excel in crafting custom product 
+         links for digital marketing and possess proficiency in backend-as-a-service 
+         products such as Firebase and Appwrite. 
+         My skills also encompass content management platforms and payment gateway integrations.
+
+Known for my rapid learning abilities and a client-centric approach, I am committed to developing efficient, scalable, and user-friendly solutions tailored to address real-world challenges. Let's collaborate and bring your innovative concepts to life.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
+      
     </>
   );
 };

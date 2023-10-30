@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,9 +29,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import paystack from "./tech/paystack.png"
+import APPWRITER from './tech/APPWRITER.png'
+import FIRE from "./tech/FIRE.png"
 export {
-  logo,
+  
   backend,
   creator,
   mobile,
@@ -59,4 +61,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  paystack,
+  APPWRITER,
+  FIRE
 };

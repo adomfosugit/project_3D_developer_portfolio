@@ -18,12 +18,8 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
+      <div
+       
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
@@ -36,13 +32,11 @@ const ProjectCard = ({
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='bg-tertiary w-10 h-10 rounded-xl flex justify-center items-center cursor-pointer'
             >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
+             <button>
+              <p className="text-sm">Visit</p>
+             </button>
             </div>
           </div>
         </div>
@@ -58,11 +52,11 @@ const ProjectCard = ({
               key={`${name}-${tag.name}`}
               className={`text-[14px] ${tag.color}`}
             >
-              #{tag.name}
+              {tag.name}
             </p>
           ))}
         </div>
-      </Tilt>
+      </div>
     </motion.div>
   );
 };
@@ -71,7 +65,7 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
+        
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </motion.div>
 
@@ -80,11 +74,14 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+        The projects I present serve as tangible 
+        demonstrations of my skills and expertise, 
+        providing real-world examples of my work. 
+        Each project is concisely outlined and accompanied 
+        by links to its code repository and live demos. 
+        These projects stand as a testament to my capacity to tackle intricate 
+        challenges, 
+        adapt to diverse technologies, and effectively oversee project management.
         </motion.p>
       </div>
 
