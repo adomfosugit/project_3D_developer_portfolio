@@ -1,5 +1,3 @@
-
-
 const BallCanvas = ({ icon,name }) => {
   return (
     
