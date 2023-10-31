@@ -108,15 +108,15 @@ const technologies = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Erica ",
-    designation: "CEO",
+      "Happy to have had Fosu work on our web app.What I enjoyed about the process is his prompt response to requests and making room to accomodate extra adds whenever the need be.Aside a very neat outlook of the site, the customer experience for us is commendable.I would recommend Fosu to anyone looking to build a web app anytime",
+    name: "Erica Dogbeda Yaotsey ",
+    designation: "Creative Director  ",
     company: "Nutorla Clothing",
-    image: "",
+    image: "Erica.png",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Fosu does.",
+      "awaiting recommendation",
     name: "Andrew Oppong",
     designation: "",
     company: "DevOps Engineer Azure Space",
@@ -124,11 +124,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Awaiting recommendation",
     name: "Kwame Kankam ",
     designation: "",
     company: "Property Datahub",
-    image: "",
+    image: "Kwame.png",
   },
 ];
 
