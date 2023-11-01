@@ -26,7 +26,7 @@ const About = () => {
          products such as Firebase and Appwrite. 
          My skills also encompass content management platforms and payment gateway integrations.
 
-Known for my rapid learning abilities and a client-centric approach, I am committed to developing efficient, scalable, and user-friendly solutions tailored to address real-world challenges. Let's collaborate and bring your innovative concepts to life.
+     Known for my rapid learning abilities and a client-centric approach, I am committed to developing efficient, scalable, and user-friendly solutions tailored to address real-world challenges. Let's collaborate and bring your innovative concepts to life.
       </motion.p>
 
       

@@ -75,7 +75,7 @@ const Works = () => {
         demonstrations of my skills and expertise, 
         providing real-world examples of my work. 
         Each project is concisely outlined and accompanied 
-        by links to its code repository and live demos. 
+        by links to its  live demos. 
         These projects stand as a testament to my capacity to tackle intricate 
         challenges, 
         adapt to diverse technologies, and effectively oversee project management.
