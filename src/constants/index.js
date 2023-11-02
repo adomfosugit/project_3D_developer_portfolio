@@ -116,15 +116,15 @@ const testimonials = [
   },
   {
     testimonial:
-      "awaiting recommendation",
+      "I've had the pleasure of working with Fosu and I must say, his skills is truly impressive.His dedication, problem-solving abilities, and commitment to delivering high-quality code are outstanding.Fosu is a valuable asset to any team, and I will recommend him for your web development needs",
     name: "Andrew Oppong",
     designation: "",
     company: "DevOps Engineer Azure Space",
-    image: "",
+    image: "Andrew.png",
   },
   {
     testimonial:
-      "Awaiting recommendation",
+      "Kwadwo is a very talented software developer.He had worked with me on several project and his skills sets are amazing.He is your go to person when you need anything software",
     name: "Kwame Kankam ",
     designation: "",
     company: "Property Datahub",
